@@ -12,5 +12,6 @@ public class MyLambda {
         String[] atp = {"aa", "bb", "cc", "dd", "ee", "ff", "gg"};
         List<String> atpList = Arrays.asList(atp);
         atpList.forEach((par) -> System.out.println(par));
+        System.out.println("哈哈哈");
     }
 }
